@@ -1,0 +1,51 @@
+.neoslider {
+    display: block;
+    position: relative;
+    padding: 0;
+}
+
+.neoslider img {
+    display: none;
+    z-index: 0;
+    width: 100%;
+}
+
+.neoslider img.previous {
+    z-index: 1;
+}
+
+.neoslider img.current {
+    display: block;
+    z-index: 2;
+}
+
+.neoslider .arrow {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 38px;
+    background: #101011;
+    color: #ffffff;
+    padding: 2px;
+    font-size: 1.4em;
+    font-family: arial, sans-serif;
+    text-align: center;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.neoslider .tooltip-div .button {
+    display: block;
+    padding: .5em;
+    margin: 1em auto;
+    color: #ffffff;
+    background: #ff5100;
+    border: 1px solid #ff5100;
+    border-radius: 5px;
+    width: 150px;
+    text-decoration: none;
+}
+
+.neoslider .tooltip-div .button:hover {
+    text-decoration: underline;
+}
